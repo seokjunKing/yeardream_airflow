@@ -22,4 +22,5 @@ bash_t2 = BashOperator(
     dag=dag,
 )
 
+
 bash_t1 >> bash_t2
