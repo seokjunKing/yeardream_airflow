@@ -6,7 +6,7 @@ dag = DAG(
     dag_id="dags_bash_operator_standard",
     schedule="0 9 * * 1,5",
     start_date=pendulum.datetime(2024, 6, 1, tz="Asia/Seoul"),
-    tag=["homework"],
+    tags=["homework"],
     catchup=False
 )
 
